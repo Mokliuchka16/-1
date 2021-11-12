@@ -1,0 +1,11 @@
+#include  
+int main(void) 
+{ 
+   int n; 
+   printf("N:"); 
+   scanf ("%i", &n); 
+   int k=1; 
+   while (k*k<=n) ++k; 
+   printf("K: %i\n",k); 
+   return 0; 
+}
